@@ -1,0 +1,16 @@
+$heading: #3F3F3F;
+$body: #373737;
+$form: #424242;
+
+$yellow: #FFDE25;
+$orange: #F16529;
+$blue: #1699D3;
+
+@mixin arrowDown {
+    height: 0;
+    width: 0;
+    border-top: 40px solid #1699D3;
+    border-left: 33px solid white;
+    border-right: 33px solid white;
+    outline: none;
+}

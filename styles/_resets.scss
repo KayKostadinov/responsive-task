@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 700;
+    overflow-x: hidden;
+}
+
+ a, ul, li {
+    text-decoration: none;
+    font: inherit;
+    list-style: none;
+}
