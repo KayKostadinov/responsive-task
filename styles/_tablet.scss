@@ -1,0 +1,38 @@
+.header {
+    background-image: url('../assets/background-tablet.png');
+    height: 300px;
+
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 44.6px;
+}
+
+.container {
+    justify-content: start;
+    padding: 0.5em 2em;
+    article{
+        padding: 0.5em;
+        padding-left: 2em;
+    }
+}
+
+.pic-container {
+    display: flex;
+    margin: 2em 4.6em;
+    text-align: left;
+    padding: 1.9em;
+    article{
+        margin-left: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    img{
+        padding: 0;
+    }
+    h4{
+        padding: 0 0 1em 0;
+    }
+}

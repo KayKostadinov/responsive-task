@@ -16,3 +16,7 @@ body {
 
 // mobile-first
 @import './mobile';
+
+@media screen and (min-width: 720px){
+    @import './tablet';
+}
