@@ -1,4 +1,9 @@
 
-const h1 = document.getElementById('h1').textContent
+const form = document.getElementById('form');
 
-console.log(h1)
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    alert(`${e.target.email.value} has been registered`)
+})
+

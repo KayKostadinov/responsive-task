@@ -1,3 +1,18 @@
 @import './resets';
 @import './vars';
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    color: $heading;
+}
+
+
+
+// mobile-first
 @import './mobile';

@@ -1,0 +1,151 @@
+.grid {
+    display: grid;
+}
+
+.header{
+    grid-row: 1/ 2;
+    grid-column: 1/ end;
+
+    background-image: url('../assets/background-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+main {
+    margin: 1em;
+}
+
+h2{
+
+    text-align: center;
+    padding: 2em 0;
+}
+
+
+
+.container {
+    border: 1px solid $border;
+    padding: .5em;
+    margin: 1em 0;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    h1{
+        font-size: 90px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 70px;
+
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 1em;
+        padding-right: 0;
+        h4{
+            font-size: 20px;
+        }
+        p{
+            font-weight: 300;
+            
+        }
+    }
+}
+
+.pic-container {
+    text-align: center;
+    padding: 1em 2em;
+    border: 1px solid $border;
+    margin: 1em 0 2em 0;
+    img {
+        padding: 0.5em;
+    }
+    h4{
+        padding: 1em;
+    }
+}
+
+.form{
+    background-color: rgba(63,63,63,0.6);
+    padding: 2em 1.5em;
+    h2{
+        color: white;
+        padding: 0;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28.8px;
+        margin: 1rem 0;
+    }
+    input{
+        border: none;
+        outline: none;
+        font: inherit;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 1.25rem .7rem;
+        width: 100%;
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25) inset;
+        margin: 1em 0;
+        &::placeholder{
+            color: rgba(66,66,66,1);
+        }
+    }
+    .btn{
+        text-transform: uppercase;
+    }
+}
+
+.thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 2em;
+    text-align: center;
+    img {
+        margin: 1em;
+    }
+}
+
+footer{
+    background: rgba(220, 220, 220, 0.6);
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    a{
+        margin: 1em 0;
+        text-decoration: underline;
+        color: inherit;
+    }
+    p{
+        line-height: 20.81px;
+    }
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 0.7em 1em;
+    background-color: $yellow;
+    color: white;
+    font: inherit;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.btn-link {
+    grid-row: 1/ 2;
+    grid-column: 1/ end;
+    align-self: flex-end;
+    justify-self: center;
+    margin: 1em 0;
+
+    background-color: $orange;
+    text-transform: uppercase;
+    padding: 0.5em 1.5em;
+}
