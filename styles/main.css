@@ -264,6 +264,13 @@ footer p {
   h2 {
     font-size: 36px;
     line-height: 44.6px;
+    padding: 0;
+    margin: 1.2em 0;
+    vertical-align: middle;
+  }
+  .containers {
+    width: 690px;
+    margin: 0 auto;
   }
   .container {
     -webkit-box-pack: start;
@@ -272,15 +279,40 @@ footer p {
     padding: 0.5em 2em;
   }
   .container article {
-    padding: 0.5em;
-    padding-left: 2em;
+    padding: .5em 0;
+    margin-left: 2em;
+    height: 70px;
+  }
+  .cards-2 h2 {
+    font-size: 24px;
+  }
+  .containers-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 1em 0;
+    height: 382px;
   }
   .pic-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 2em 4.6em;
+    width: 540px;
+    height: 160px;
     text-align: left;
+    margin: 0;
     padding: 1.9em;
   }
   .pic-container article {
@@ -326,6 +358,12 @@ footer p {
   }
   .links {
     margin-bottom: 1em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 1em auto;
+    margin-top: 0;
   }
   .links a {
     margin: 0 1em;
@@ -358,15 +396,13 @@ footer p {
     height: 60px;
     width: 100%;
   }
-  .cards-2 h2 {
-    font-size: 24px;
-  }
   .pic-container {
     width: 540px;
     margin: 1em 0;
   }
-  .containers {
+  .containers, .containers-2 {
     width: 1110px;
+    height: auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -376,6 +412,12 @@ footer p {
             justify-content: space-between;
     margin: 0 auto;
   }
+  .containers-2 {
+    padding-bottom: 0;
+  }
+  .containers-2 .pic-container {
+    margin: 0;
+  }
   .container {
     padding: 0;
     width: 350px;
@@ -383,11 +425,11 @@ footer p {
     padding: 60px 30px;
   }
   .container article {
-    padding: 2em;
-    padding-left: 30px;
+    padding: 0;
+    margin-left: 30px;
   }
   .btn-link {
-    margin: 5.4em 0;
+    margin: 86px 0;
   }
   .thumbs {
     padding-top: 0;

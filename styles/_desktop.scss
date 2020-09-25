@@ -26,22 +26,26 @@ main {
     }
 }
 
-.cards-2{
-    h2{
-        font-size: 24px;
-    }
-}
+
 
 .pic-container{
     width: 540px;
     margin: 1em 0;
 }
 
-.containers{
+.containers, .containers-2{
     width: 1110px;
+    height: auto;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
+}
+
+.containers-2{
+    padding-bottom: 0;
+    .pic-container{
+        margin: 0;
+    }
 }
 
 .container {
@@ -51,14 +55,14 @@ main {
     padding: 60px 30px;
 
     article{
-        padding: 2em;
-        padding-left: 30px;
+        padding: 0;
+        margin-left: 30px;
     }
 
 }
 
 .btn-link{
-    margin: 5.4em 0;
+    margin: 86px 0;
 }
 
 .thumbs {
