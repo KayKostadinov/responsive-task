@@ -1,5 +1,9 @@
 
-# Deployed site: [link](https://kaykostadinov.github.io/responsive-task/)
+# Deployed site: 
+**[link](https://kaykostadinov.github.io/responsive-task/)**
+
+# Running locally:
+**Clone the repository and open index.html in a browser**
 
 # About:
 **Implemented to design speck: [link](https://www.figma.com/file/bFqj2m5lLTVgXfdmXHQcqO/Web-Development-Intern-Task?node-id=0%3A1)**
