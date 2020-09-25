@@ -173,3 +173,21 @@ footer{
     width: 2em;
     margin: 60px auto;
 }
+
+#msg {
+    display: none;
+    position: fixed;
+    opacity: 0;
+    left: 20%;
+    right: 20%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    background-color: $orange;
+    animation: fadein 3s;
+    z-index: 3;
+    p{
+        font: inherit;
+    }
+}

@@ -17,6 +17,44 @@ a, ul, li {
   list-style: none;
 }
 
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+  20% {
+    opacity: 1;
+    top: 3em;
+  }
+  80% {
+    opacity: 1;
+    top: 3em;
+  }
+  100% {
+    opacity: 0;
+    top: 0;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+  20% {
+    opacity: 1;
+    top: 3em;
+  }
+  80% {
+    opacity: 1;
+    top: 3em;
+  }
+  100% {
+    opacity: 0;
+    top: 0;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -262,6 +300,26 @@ footer p {
   position: absolute;
   width: 2em;
   margin: 60px auto;
+}
+
+#msg {
+  display: none;
+  position: fixed;
+  opacity: 0;
+  left: 20%;
+  right: 20%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em;
+  color: white;
+  background-color: #F16529;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+  z-index: 3;
+}
+
+#msg p {
+  font: inherit;
 }
 
 @media screen and (min-width: 720px) {
