@@ -209,6 +209,8 @@ footer p {
   font: inherit;
   font-weight: 700;
   display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 .btn-link {
@@ -271,6 +273,34 @@ footer p {
   }
   .pic-container h4 {
     padding: 0 0 1em 0;
+  }
+  .form {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 330px;
+    height: 300px;
+  }
+  .form .btn {
+    height: 60px;
+    width: 100%;
+  }
+  .btn-link {
+    grid-row: unset;
+    width: 540px;
+    height: 60px;
+    text-align: center;
+    padding: 1.3em;
+  }
+  footer {
+    margin-top: 2em;
+    padding: 1em 2em;
+  }
+  .links {
+    margin-bottom: 1em;
+  }
+  .links a {
+    margin: 0 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */

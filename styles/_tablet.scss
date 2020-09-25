@@ -36,3 +36,39 @@ h2 {
         padding: 0 0 1em 0;
     }
 }
+
+.form {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 330px;
+    height: 300px;
+
+    .btn {
+        height: 60px;
+        width: 100%;
+    }
+}
+
+
+.btn-link {
+    grid-row: unset;
+    width: 540px;
+    height: 60px;
+    text-align: center;
+    padding: 1.3em;
+}
+
+
+
+footer{
+    margin-top: 2em;
+    padding: 1em 2em;
+}
+
+.links {
+    margin-bottom: 1em;
+    a{
+        margin: 0 1em;
+    }
+}
