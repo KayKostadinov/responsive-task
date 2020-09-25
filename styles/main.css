@@ -65,7 +65,7 @@ h2 {
 .container {
   border: 1px solid #DCDCDC;
   padding: .5em;
-  margin: 1em 0;
+  margin: 0.7em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,6 +254,14 @@ footer p {
   background-color: #F16529;
   text-transform: uppercase;
   padding: 0.5em 1.5em;
+}
+
+.arrow {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: absolute;
+  width: 2em;
+  margin: 60px auto;
 }
 
 @media screen and (min-width: 720px) {
