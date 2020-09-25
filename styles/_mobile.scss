@@ -63,7 +63,7 @@ h2{
 .pic-container {
     text-align: center;
     border: 1px solid $border;
-    padding: 1em 2em;
+    padding: 1em;
     margin: 1em 0 2em 0;
     img {
         padding: 0.5em;
@@ -125,10 +125,20 @@ footer{
         margin: 1em 0;
         text-decoration: underline;
         color: inherit;
+        &:first-child{
+            margin-top: 0;
+        }
     }
     p{
         line-height: 20.81px;
     }
+
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .btn {
@@ -151,7 +161,7 @@ footer{
     align-self: flex-end;
     justify-self: center;
     margin: 1em 0;
-
+    width: 290px;
     background-color: $orange;
     text-transform: uppercase;
     padding: 0.5em 1.5em;
