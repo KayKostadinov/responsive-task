@@ -377,9 +377,11 @@ footer p {
     margin: 0 1em;
   }
   .arrow {
+    position: relative;
     width: 2.2em;
-    margin-top: 62px;
-    right: 50px;
+    margin: 0;
+    left: 13em;
+    top: 3.9em;
   }
 }
 
@@ -446,6 +448,14 @@ footer p {
   }
   .thumbs {
     padding-top: 0;
+  }
+  .arrow {
+    -webkit-transform: unset;
+            transform: unset;
+    width: 2.5em;
+    position: relative;
+    left: 4.5em;
+    top: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
