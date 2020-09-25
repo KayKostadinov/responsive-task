@@ -13,6 +13,5 @@ form.addEventListener('submit', e => {
         msg.style.display = 'none';
     }, 3000)
     e.target.email.value = ''
-    // alert(`${} has been registered`)
 })
 
