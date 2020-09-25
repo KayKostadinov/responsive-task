@@ -1,7 +1,5 @@
 
-# Deployed site: 
-## Github pages (where this site is deployed) has issues with loading static files, so the js script does not load properly, rendering the form not functional. If you need to see the project right away, please check the "Running locally" section below while I work to deploy the page.
-**[link](https://kaykostadinov.github.io/responsive-task/)**
+# Deployed site: **[link](https://kaykostadinov.github.io/responsive-task/)**
 
 # Running locally:
 **Clone the repository and open index.html in a browser**
