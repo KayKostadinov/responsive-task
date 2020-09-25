@@ -376,6 +376,11 @@ footer p {
   .links a {
     margin: 0 1em;
   }
+  .arrow {
+    width: 2.2em;
+    margin-top: 62px;
+    right: 50px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
